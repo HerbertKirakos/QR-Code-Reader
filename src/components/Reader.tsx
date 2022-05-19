@@ -44,7 +44,7 @@ export const Reader = () => {
               showReader && (
                 <QrReader
                   onResult={handleResult}
-                  constraints={{ facingMode: 'back' }}
+                  constraints={{ facingMode: 'environment' }}
                   containerStyle={{ width: '100%' }}
                 />
               )
