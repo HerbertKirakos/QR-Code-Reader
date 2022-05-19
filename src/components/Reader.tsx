@@ -57,7 +57,7 @@ export const Reader = () => {
             {
               data && (
                 <div className="border border-md py-1 px-2 bg-gray-100">
-                  <h3 className="text-lg">{data}</h3>
+                  <h3 className="break-all text-lg">{data}</h3>
                 </div>
               )
             }
